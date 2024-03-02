@@ -65,7 +65,7 @@ namespace AlarmTrigger
         private Bitmap bmpImage;
 
         #region hmm...
-        string bb = "collerr4567";
+        string bb = "password";
         #endregion
 
         #endregion
