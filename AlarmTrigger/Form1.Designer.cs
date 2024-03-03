@@ -44,7 +44,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.aiSpeech.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aiSpeech.ForeColor = System.Drawing.Color.Lime;
-            this.aiSpeech.Location = new System.Drawing.Point(26, 24);
+            this.aiSpeech.Location = new System.Drawing.Point(52, 46);
+            this.aiSpeech.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.aiSpeech.Name = "aiSpeech";
             this.aiSpeech.Size = new System.Drawing.Size(0, 0);
             this.aiSpeech.TabIndex = 0;
@@ -67,7 +68,8 @@
             this.camPreview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.camPreview.Location = new System.Drawing.Point(-16, -12);
+            this.camPreview.Location = new System.Drawing.Point(-32, -23);
+            this.camPreview.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.camPreview.Name = "camPreview";
             this.camPreview.Size = new System.Drawing.Size(0, 0);
             this.camPreview.TabIndex = 1;
@@ -77,7 +79,7 @@
             // 
             // AlarmTriggerBB
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(0, 0);
@@ -85,6 +87,7 @@
             this.Controls.Add(this.aiSpeech);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "AlarmTriggerBB";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alarm Trigger BB";
