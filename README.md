@@ -1,3 +1,5 @@
-# alarmtrigger
+# AlarmTrigger
 
-Funny intruder alarm WinForms program from my script-kiddie days, back in 2015--2016.
+Funny WinForms program for catching intruders on your Windows system.
+
+Made during my script-kiddie days back in 2016.
