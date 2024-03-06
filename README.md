@@ -1,4 +1,4 @@
-# AlarmTrigger
+# alarmtrigger
 
 Funny WinForms program for catching intruders on your Windows system.
 
